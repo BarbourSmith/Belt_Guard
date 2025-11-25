@@ -1,13 +1,32 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Belt_Guard",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Belt_Guard",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2"
+    },
+    {
+      "atomType": "Import",
+      "x": 0.3895502645502646,
+      "y": 0.6128133704735376,
+      "uniqueID": "id-4",
+      "fileName": "Belt Guard.step",
+      "name": "Import",
+      "type": "STEP",
+      "repoOwner": "BarbourSmith",
+      "repoName": "Belt_Guard",
+      "SVGwidth": 10
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
