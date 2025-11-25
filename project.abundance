@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Nut_Hole_Size",
-      "ioValue": 10
+      "ioValue": 6,
+      "currentEquation": "6"
     }
   ],
   "topLevel": true,
@@ -46,8 +47,8 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -27,
-          "currentEquation": "-27"
+          "ioValue": -26.614,
+          "currentEquation": "-26.614"
         }
       ]
     },
@@ -61,8 +62,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.18849206349206352,
-      "y": 0.7632311977715878,
+      "x": 0.14087301587301587,
+      "y": 0.7938718662952646,
       "uniqueID": "id-15",
       "ioValues": [
         {
@@ -71,7 +72,7 @@
         },
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 6
         }
       ]
     },
@@ -114,8 +115,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2884920634920635,
-      "y": 0.7632311977715878,
+      "x": 0.16865079365079363,
+      "y": 0.5292479108635098,
       "uniqueID": "id-29",
       "ioValues": [
         {
@@ -127,19 +128,19 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5138888888888888,
-      "y": 0.5069637883008357,
+      "x": 0.5191798941798942,
+      "y": 0.4874651810584958,
       "uniqueID": "id-33",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 72,
-          "currentEquation": "72"
+          "ioValue": 76.31051,
+          "currentEquation": "76.31051"
         },
         {
           "name": "yDist",
-          "ioValue": 12,
-          "currentEquation": "12"
+          "ioValue": 9.899,
+          "currentEquation": "9.899"
         },
         {
           "name": "zDist",
@@ -150,10 +151,31 @@
     },
     {
       "atomType": "Color",
-      "x": 0.3664021164021164,
-      "y": 0.5264623955431754,
+      "x": 0.2638888888888889,
+      "y": 0.43732590529247906,
       "uniqueID": "id-40",
       "selectedColor": "Keep Out"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3974867724867725,
+      "y": 0.5766016713091923,
+      "uniqueID": "id-43",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 12,
+          "currentEquation": "12"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -200,6 +222,11 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-40",
+      "ap2ID": "id-43"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-43",
       "ap2ID": "id-33"
     }
   ],
