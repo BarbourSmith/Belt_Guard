@@ -4,6 +4,12 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Belt_Guard",
+  "ioValues": [
+    {
+      "name": "Nut_Hole_Size",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -14,8 +20,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.3895502645502646,
-      "y": 0.6128133704735376,
+      "x": 0.09259259259259259,
+      "y": 0.17827298050139276,
       "uniqueID": "id-4",
       "fileName": "Belt Guard.step",
       "name": "Import",
@@ -23,9 +29,180 @@
       "repoOwner": "BarbourSmith",
       "repoName": "Belt_Guard",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.39021164021164023,
+      "y": 0.2590529247910863,
+      "uniqueID": "id-6",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": -27,
+          "currentEquation": "-27"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6044568245125348,
+      "uniqueID": "id-12",
+      "name": "Nut_Hole_Size",
+      "type": "number"
+    },
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.18849206349206352,
+      "y": 0.7632311977715878,
+      "uniqueID": "id-15",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6
+        },
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5595238095238095,
+      "y": 0.18662952646239553,
+      "uniqueID": "id-19",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": -3,
+          "currentEquation": "-3"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7123015873015873,
+      "y": 0.4958217270194986,
+      "uniqueID": "id-25",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2884920634920635,
+      "y": 0.7632311977715878,
+      "uniqueID": "id-29",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 16,
+          "currentEquation": "16"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5138888888888888,
+      "y": 0.5069637883008357,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 72,
+          "currentEquation": "72"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 12,
+          "currentEquation": "12"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.3664021164021164,
+      "y": 0.5264623955431754,
+      "uniqueID": "id-40",
+      "selectedColor": "Keep Out"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-6"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-19"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-12",
+      "ap2ID": "id-15"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-15",
+      "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-19",
+      "ap2ID": "id-25"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-25",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-29",
+      "ap2ID": "id-40"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-33",
+      "ap2ID": "id-25"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-40",
+      "ap2ID": "id-33"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
