@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Nut_Hole_Size",
-      "ioValue": 6.5,
-      "currentEquation": "6.5"
+      "ioValue": 6.5
     }
   ],
   "topLevel": true,
@@ -47,15 +46,14 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -26.614,
-          "currentEquation": "-26.614"
+          "ioValue": -26.614
         }
       ]
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.6044568245125348,
+      "y": 0.15384615384615385,
       "uniqueID": "id-12",
       "name": "Nut_Hole_Size",
       "type": "number"
@@ -92,8 +90,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -3,
-          "currentEquation": "-3"
+          "ioValue": -3
         }
       ]
     },
@@ -129,8 +126,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 16,
-          "currentEquation": "16"
+          "ioValue": 16
         }
       ]
     },
@@ -142,18 +138,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 76.31051,
-          "currentEquation": "76.31051"
+          "ioValue": 76.31051
         },
         {
           "name": "yDist",
-          "ioValue": 9.899,
-          "currentEquation": "9.899"
+          "ioValue": 9.899
         },
         {
           "name": "zDist",
-          "ioValue": 3.5,
-          "currentEquation": "3.5"
+          "ioValue": 3.5
         }
       ]
     },
@@ -180,8 +173,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 11.896,
-          "currentEquation": "11.896"
+          "ioValue": 11.896
         }
       ]
     },
@@ -201,8 +193,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -18.103,
-          "currentEquation": "-18.103"
+          "ioValue": -18.103
         }
       ]
     },
@@ -265,8 +256,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 11.689,
-          "currentEquation": "11.689"
+          "ioValue": 11.689
         }
       ]
     },
